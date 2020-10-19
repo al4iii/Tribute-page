@@ -1,9 +1,13 @@
-
-body{ 
- 
+.body{  
   margin: 0;
 }
-main {
+
+.header{
+  padding: 10px 0;
+  text-align: center;
+}
+
+.main{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -12,72 +16,85 @@ main {
   margin: 0px auto;
   background-color: #f0f0f0;
 }
-header{
-  padding: 10px 0;
-  text-align: center;
-}
-#title {
+
+.title{
   padding: 10px;
   line-height: 150%;
   text-align: center;
   margin: 0;
+} 
+
+.italic{
+  font-style: italic;
 }
-#img-div { 
+
+.bold{
+  font-weight: bold;
+}
+
+.img-div{ 
   text-align: center;
-  background-color: white;  
+  background-color: #fff;  
 }
-#image {
-  margin: 30px 30px 0px 30px;
+
+.image{
+  margin: 30px 0px 30px;
 }
-#img-caption {
+
+.img-caption{
  padding: 20px;
  text-align: center;
  margin: 0;
 }
-.tribute-info {
+
+.tribute-info{
   text-indent: 30px;
-  line-height: 200%;
-  align: center;
-  padding: 0 25px 10px;
+  line-height: 200%;  
+  padding: 0 20px 10px 25px;
   margin: 0;
 }
-#tribute-link {
-  align: center;
+
+.text{
+  border: 2px solid #ffa500;
+  border-left: none;
+  border-right: none;
+  padding: 0px;  
 }
-section {
-  padding: 0px;
-  
-}
-h2 {
+
+.heading2{
   text-align: center;
   line-height: 170%;
-  color: black;
+  color: #000;
 }
-section>h2{
+
+.text>h2{
   padding: 10px 0px;
 }
-footer{    
-  background-color: white;
+
+.footer{    
+  background-color:#fff;
+  height: 100px; 
+  width: 100%;
   display: flex;
   flex-direction: row;
+  
   align-items: center;
-  justify-content: center;  
-  height: 100px;  
+  justify-content: center;     
 }
-a {
+
+.link{
   text-decoration: none;
-  font-weight: 800;  
+  font-weight: bold;  
 }
-a:visited {
-  color: black;
+
+.link:visited{
+  color: #000;
 }
-h2>a{  
+
+.heading2>a{  
   font-size: 20px;
 }
 
-hr{
-  margin-bottom: 0;
-}
-#p-battom {  
+.p-battom{  
   padding-bottom: 20px;
 }
