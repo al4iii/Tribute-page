@@ -1,13 +1,13 @@
-.body{  
+.body {
   margin: 0;
 }
 
-.header{
+.header {
   padding: 10px 0;
   text-align: center;
 }
 
-.main{
+.main {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -17,84 +17,84 @@
   background-color: #f0f0f0;
 }
 
-.title{
+.title {
   padding: 10px;
   line-height: 150%;
   text-align: center;
   margin: 0;
-} 
+}
 
-.italic{
+.italic {
   font-style: italic;
 }
 
-.bold{
+.bold {
   font-weight: bold;
 }
 
-.img-div{ 
+.img-div {
   text-align: center;
-  background-color: #fff;  
+  background-color: #fff;
 }
 
-.image{
+.image {
   margin: 30px 0px 30px;
 }
 
-.img-caption{
- padding: 20px;
- text-align: center;
- margin: 0;
+.img-caption {
+  padding: 20px;
+  text-align: center;
+  margin: 0;
 }
 
-.tribute-info{
+.tribute-info {
   text-indent: 30px;
-  line-height: 200%;  
+  line-height: 200%;
   padding: 0 20px 10px 25px;
   margin: 0;
 }
 
-.text{
+.text {
   border: 2px solid #ffa500;
   border-left: none;
   border-right: none;
-  padding: 0px;  
+  padding: 0px;
 }
 
-.heading2{
+.heading2 {
   text-align: center;
   line-height: 170%;
   color: #000;
 }
 
-.text>h2{
+.text > h2 {
   padding: 10px 0px;
 }
 
-.footer{    
-  background-color:#fff;
-  height: 100px; 
+.footer {
+  background-color: #fff;
+  height: 100px;
   width: 100%;
   display: flex;
   flex-direction: row;
-  
+
   align-items: center;
-  justify-content: center;     
+  justify-content: center;
 }
 
-.link{
+.link {
   text-decoration: none;
-  font-weight: bold;  
+  font-weight: bold;
 }
 
-.link:visited{
+.link:visited {
   color: #000;
 }
 
-.heading2>a{  
+.heading2 > a {
   font-size: 20px;
 }
 
-.p-battom{  
+.p-battom {
   padding-bottom: 20px;
 }
